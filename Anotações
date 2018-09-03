@@ -1,0 +1,22 @@
+	CASOS:
+
+	*Número de aulas dadas pelo professor de determinada matéria em determinada sala;
+
+	*Coincidência de horários entre professores (nesse caso utilizar o rankeamento);
+
+	*Um professor pode dar aula de mais de uma matéria, porém uma matéria não pode ser dada por mais de um professor
+	(relação 1-n);
+
+	*O horário não poderá ser gerado perfeitamente, portanto devemos disponibilizar uma ferramenta para que possa 
+	se fazer uma organização manual;
+
+	*Um professor pode acabar perdendo todas as suas aulas disponiveis para outros professores por haver
+	um rankeamento menor que o outro, nesse caso o programa deverá deixar o campo vazio e retornar uma 
+	mensagem ao A.T.A (Assistente técnico administrativo) para que haja um consenso com o professor sobre 
+	qual aula o professor deverá pegar e gerenciar o caso manualmente.
+
+ 	*Um professor deverá ter um intervalo de 11 horas entre um dia de aula e outro;
+
+	*Uma turma não pode ter aula de matéria técnica e a outra do ensino médio(Ex: 2SA - Tpi    2SB-Filosofia);
+  
+  *
